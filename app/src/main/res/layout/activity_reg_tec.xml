@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/celeste"
+    tools:context=".RegTecActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegTec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
+
+        <EditText
+            android:id="@+id/txtDocTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Documento"
+            android:inputType="number"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+
+        <EditText
+            android:id="@+id/txtNomTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+
+        <EditText
+            android:id="@+id/txtDirTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Dirección"
+            android:inputType="text"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+
+        <EditText
+            android:id="@+id/txtTelTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+
+        <EditText
+            android:id="@+id/txtEmaTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+
+        <EditText
+            android:id="@+id/txtConTec"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="20dp"
+            android:translationY="35dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="112dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="33dp"
+        android:translationX="4dp"
+        android:translationY="-10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fotoperfil" />
+
+    <Button
+        android:id="@+id/btnRegTec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="Registrarme"
+        android:translationY="-30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

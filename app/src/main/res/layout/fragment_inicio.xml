@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="75dp"
+        android:paddingTop="35dp"
+        android:text="Binevenido a Soft Air"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtMosNomTec"
+        android:layout_width="227dp"
+        android:layout_height="44dp"
+        android:text="Nombre tec"
+        android:translationX="80dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/btnLogOutTec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:translationX="200dp"
+        android:translationY="550dp" />
+
+</FrameLayout>

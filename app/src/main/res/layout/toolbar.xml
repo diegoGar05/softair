@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/left_icon"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/baseline_menu" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@id/left_icon"
+        android:text="My Aplication"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/right_icon"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/baseline_info_24" />
+
+    <ImageView
+        android:id="@+id/right_ic"
+        android:layout_width="49dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1in"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/baseline_nosotros" />
+
+    <ImageView
+        android:id="@+id/left_ic"
+        android:layout_width="61dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1in"
+        android:layout_marginEnd="311dp"
+        android:src="@drawable/baseline_inicio" />
+
+</RelativeLayout>

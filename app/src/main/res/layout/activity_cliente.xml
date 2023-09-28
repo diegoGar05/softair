@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clienteActivity">
+
+    <Button
+        android:id="@+id/btnIniSesTec"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="goIniSesCli"
+        android:text="Iniciar sesión"
+        android:translationY="-30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassTec" />
+
+    <EditText
+        android:id="@+id/editTextEmaTec"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:translationY="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPassTec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="46dp"
+        android:text="CLIENTE"
+        android:translationY="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmaTec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <EditText
+        android:id="@+id/editTextPassTec"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/lavender_border"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:translationY="-30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnIniSesTec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmaTec" />
+
+    <TextView
+        android:id="@+id/txtRegCli"
+        android:layout_width="195dp"
+        android:layout_height="0dp"
+        android:onClick="llamarRegCli"
+        android:text="Registrese ahora"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:translationY="-40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="5dp"
+        android:hint="¿Aún no te has registrado?"
+        android:textAlignment="center"
+        android:translationY="-40dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtRegCli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniSesTec" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="43dp"
+        android:translationY="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/engranaje" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

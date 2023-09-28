@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">softair</string>
+    <string-array name="documento">
+        <item>Seleccione...</item>
+        <item>Cédula de ciudadanía</item>
+        <item>NIT</item>
+    </string-array>
+    <string name="title_activity_menup">menupActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_drawer_layout">drawer_layout</string>
+
+    <string-array name="indusAir">
+        <item>Seleccione...</item>
+        <item>Multi Split Cassette</item>
+        <item>Sistema VRF</item>
+        <item>Rooftop</item>
+        <item>Multi Split Suelo-Techo</item>
+    </string-array>
+
+    <string-array name="DomesAir">
+        <item>Seleccione...</item>
+        <item>Fan Coil</item>
+        <item>Mono Split</item>
+        <item>Portatil</item>
+        <item>Sistema Multi Split</item>
+        <item>Sistema por Conductos</item>
+    </string-array>
+
+    <string-array name="tipMan">
+        <item>Seleccione...</item>
+        <item>Preventivo</item>
+        <item>Correctivo</item>
+        <item>Predictivo</item>
+    </string-array>
+
+    <string-array name="marcaAir">
+        <item>Seleccione...</item>
+        <item>Samsung</item>
+        <item>LG</item>
+        <item>Carrier</item>
+        <item>Daikin</item>
+        <item>Midea</item>
+        <item>York</item>
+        <item>Mirage</item>
+        <item>Otro</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

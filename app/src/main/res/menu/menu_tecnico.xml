@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icon_perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="perfil"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/icon_crono"
+        android:icon="@drawable/ic_crono"
+        android:title="crono"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/icon_info"
+        android:icon="@drawable/ic_info"
+        android:title="info"
+        app:showAsAction="always">
+    </item>
+</menu>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegCliActivity"
+    android:background="@color/celeste"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-12dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="47dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegCli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <Spinner
+            android:id="@+id/spnTipDocCli"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:entries="@array/documento"
+            android:translationX="30dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtDocCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Documento"
+            android:inputType="number"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtNomCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Nombre completo"
+            android:inputType="text"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtDirCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Dirección"
+            android:inputType="text"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtTelCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Teléfono"
+            android:inputType="number"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtEmaCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+
+        <EditText
+            android:id="@+id/txtConCli"
+            android:layout_width="303dp"
+            android:layout_height="32dp"
+            android:background="@drawable/lavender_border"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="25px"
+            android:textSize="43px"
+            android:translationX="15dp"
+            android:translationY="30dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fotoperfil" />
+
+    <Button
+        android:id="@+id/btnRegCli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="94dp"
+        android:onClick="goIniSes"
+        android:text="Registrarme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
